@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Libro de visitas</title>
+    </head>
+
+    <body>
+        <h1>Artículo</h1>
+        <p> Contenido del artículo ...</p>
+
+        <h3>Comentarios de los artículos</h3>
+            <ul id="commentList">
+				<li type = "none"> Este es un comentario</li>
+			
+			</ul>
+        
+
+         <textarea id="commentUser"  oninput="showPreview()" placeholder="Dejanos tu comentario"></textarea>
+        
+        <h3 >Deja tu comentario</h3>
+		
+        <input type="button" value="Texto chico" onclick="textCh()">
+		<input type="button" value="Texto Mediano" onclick="textMd()">
+		<input type="button" value="Texto Chico" onclick="textBig();">
+		<input type="button" value="Color de Texto" onclick="colorText()">
+		<input type="button" value="Color de Fondo" onclick="colorFondo()">
+		<input type="button" value="Alinear Izquierda" onclick="alineaIzq()">
+		<input type="button" value="Centrar" onclick="centrar()">
+		<input type="button" value="Alinear Derecha" onclick="alineaDer()">
+
+        <p  id="showComment" ></p>
+        <hr>
+		<input type="submit" value="Enviar" onclick="publicarComment()">
+       
+
+        <script src="js/visitas.js"></script>
+    </body>
+
+</html>
+
+		
+	<form>
+		
+		<div>
+			
+			
